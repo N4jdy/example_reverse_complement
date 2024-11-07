@@ -19,6 +19,7 @@ A few examples of reverse complements are shown below:
      ```
    - All the test cases in the test module should pass
 4. The implementation should now be made error proof by substituting any non-DNA characters with an underscore character `"_"` in the output.
+   - This change should be first developed in a new branch `error_resistent` and then merged back into the `main` branch.
    - Before making the changes to the function adapt the activity diagram to include the new steps.
    - Update the test module to include the new test case by adding a function `test_reverse_complement_error_resistent` to the `TestReverseComplement` class.  
    This test case should verify that the DNA string `"ATGATCTCXTAA"` returns the reverse complement `"TTACGAGA_CAT"`.
