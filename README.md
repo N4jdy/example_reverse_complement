@@ -9,7 +9,7 @@ A few examples of reverse complements are shown below:
 | GCTAGCTAGCTA    | CGATCGATCGAT | TAGCTAGCTAGC       |
 
 ## Task
-1. Create an activity diagram that describes the steps to reverse complement a DNA sequence.
+1. Create an activity diagram that describes the steps to reverse complement a DNA sequence. You are at this point only allowed to make use of binary decisions and actions.
 2. Clone this repository and set up a virtual environment.
 3. Implement a python module `reverse_complement.py` that provides a function `reverse_complement` that takes a DNA string as input and returns the reverse complement of the DNA string.
    - To aid in the implementation and subsequent testing a unit test module `test_reverse_complement.py` is provided in this repository
@@ -18,6 +18,7 @@ A few examples of reverse complements are shown below:
      python -m unittest discover test
      ```
    - All the test cases in the test module should pass
+   - Do not forget to commit your changes to the `main` branch
 4. The implementation should now be made error proof by substituting any non-DNA characters with an underscore character `"_"` in the output.
    - This change should be first developed in a new branch `error_resistent` and then merged back into the `main` branch.
    - Before making the changes to the function adapt the activity diagram to include the new steps.
