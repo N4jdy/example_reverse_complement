@@ -22,6 +22,6 @@ A few examples of reverse complements are shown below:
    - This change should be first developed in a new branch `error_resistent` and then merged back into the `main` branch.
    - Before making the changes to the function adapt the activity diagram to include the new steps.
    - Update the test module to include the new test case by adding a function `test_reverse_complement_error_resistent` to the `TestReverseComplement` class.  
-   This test case should verify that the DNA string `"ATGATCTCXTAA"` returns the reverse complement `"TTACGAGA_CAT"`.
+   This test case should verify that the DNA string `"ATGATCTCXTAA"` returns the reverse complement `"TTA_GAGATCAT"`.
    - Once again all the test cases should pass after the implementation.
 5. Try to assess whether the implementation is efficient and easily extendable and suggest any improvements if necessary.
